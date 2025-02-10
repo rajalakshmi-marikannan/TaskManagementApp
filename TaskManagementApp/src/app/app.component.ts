@@ -41,7 +41,7 @@ export class AppComponent
   users: User[];
 
   // new task fields
-  title: string = "";
+  title: string = "TaskManagementApp";
   description: string = "";
   dueDate: Date = new Date();
   assignedUser: string = "";
